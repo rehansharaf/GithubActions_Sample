@@ -17,7 +17,7 @@ public class TestClassA {
 	@BeforeMethod
 	public void setUp() {
 		
-		/*WebDriverManager.chromedriver().clearResolutionCache();
+		WebDriverManager.chromedriver().clearResolutionCache();
 		//WebDriverManager.chromedriver().clearDriverCache().setup();
 		WebDriverManager.chromedriver().clearDriverCache();
 		WebDriverManager.chromedriver().setup();
@@ -39,7 +39,7 @@ public class TestClassA {
     	options.addArguments("--proxy-bypass-list=*");
 		
 		// Set Browser to ThreadLocalMap
-		driver = new ChromeDriver();*/
+		driver = new ChromeDriver(options);
 		System.out.println("Before Method");
 	}
 	
