@@ -47,7 +47,7 @@ public class TestClassA {
 	@Test
 	public void testUntitled() {
 		
-		//driver.get("https://www.google.com/");
+		driver.get("https://www.google.com/");
 		System.out.println("Test Method Exected Line");
 	}
 
